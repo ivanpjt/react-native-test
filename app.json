@@ -1,0 +1,37 @@
+{
+	"expo": {
+		"name": "my-app",
+		"slug": "my-app",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"scheme": "myapp",
+		"userInterfaceStyle": "automatic",
+		"splash": {
+			"resizeMode": "contain",
+			"backgroundColor": "#181A1F"
+		},
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"backgroundColor": "#181A1F"
+			}
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static"
+		},
+		"plugins": [
+			[
+				"expo-router",
+				{
+					"root": "./src/pages"
+				}
+			]
+		],
+		"experiments": {
+			"typedRoutes": true
+		}
+	}
+}
